@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+/*p0 m0 tab*/
+
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+     /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  */
+    
+    font-family: "Roboto", sans-serif; 
+    /* font: normal 16px 'Roboto',sans-serif; */
+}
+a{
+    color: #0f141e;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: blue ;
+}
+
+a:visited{
+    color: grey;
+}
+.avatar{
+    width:200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 5);
+}
+ /* .avatar - class
+ #avatar - id
+ */
+.info p{
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: lowercase;
+    /* letter-spacing: 2px; */
+   /*  word-spacing: 15px; */
+}
+.container{
+    max-width: 750px;
+    margin:auto;
+    padding-top: 30px;
+}
+.bg-yellow{
+    background-color: #fff9dc;
+}
+.bg-green{
+    background-color: #e5ffe7;
+}
+.bg-red{
+    background-color: #ffe5e5;
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius:20px
+}
+
+
+
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media(max-width:700px){
+
+    .info{
+        text-align: center;
+        display: block;
+    }
+
+
+
+}
+
+
+.info-text{
+    margin-left: 40px;
+}
+.info-text h4{
+    margin-bottom: 10px ;
+}
+.card h2{
+    margin-bottom: 20px;
+}
+
+.list{
+    padding: 0 20px;/* 
+    list-style: none; */
+}
+.list li{
+    color: #86898f;
+    margin-bottom: 10px;/* 
+    border-bottom: 1px solid grey; */
+}
+.table{
+    width: 100%;
+
+}
+.table td{
+    padding-bottom: 10px;
+}
+.table td:nth-child(2){
+    color:grey;
+}
+
+.link-list{
+    list-style: none;
+    padding: 0;
+    
+}
+.link-list li{
+ margin-bottom: 10px;
+ padding-bottom: 5px;
+border-bottom:1px solid #ccc ;
+
+}
+.contact h2{
+ text-align: center;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color:#86898f ;
+}
+.form-group input,.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+     background: transparent; 
+    border-bottom: 1px solid #ccc;
+    color:#000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.row{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.row > .form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+.row > .form-group:last-child{
+    margin-right: 0px;
+}
+.btn{
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit ;
+    cursor: pointer;
+
+}
+.btn:hover{
+    opacity: 0.9;
+}
+
+/*position*/
+
+/* .position{
+ position: relative;
+ height: 300px;
+ border: 4px solid black;
+ margin-top: 40px;
+ padding: 20px;
+} */
+
+/* .box{
+    position: absolute; /*позиционируются на уровне окна
+    top: 0;
+    right: 0;
+    /* top:50px; 
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+} */
+/*кнопка*/
+/* .box{
+    position: fixed; */ /*позиционируются на уровне окна*/
+   /*  bottom: 50px;
+    top: 0;  лишнее
+    right: 50px;
+    border-radius: 50%;
+     top:50px; лишнее
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+} */
+
+/*новигация*/
+/* .box{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #86898f;
+} */
+
+
+
+
+
+
+
+
+/* .table tr:nth-child(odd){
+    background: palevioletred;
+} */
+/* .social{
+    background-color: rgb(112, 143, 143);
+    padding: 15px;
+    padding: 15px 40px;
+    
+    margin: 5px;
+    
+    border: 5px solid red;
+    border-bottom-style: dotted;
+    border-top-width: 10px;
+    border-right-color: blueviolet;
+} */
+
+/* .box-model{
+
+
+}
+ .box-model > div{
+ только дети будут применять стиль 
+float: left;
+background-color: #0f141e;
+height: 200px;
+width: 25%;
+border: 4px solid red;
+box-sizing: border-box;
+}  */
+
